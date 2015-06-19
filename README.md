@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/docwhat/lita-die.png?branch=master)](https://travis-ci.org/docwhat/lita-die)
 [![Coverage Status](https://coveralls.io/repos/docwhat/lita-die/badge.png)](https://coveralls.io/r/docwhat/lita-die)
 
-TODO: Add a description of the plugin.
+Adds a `die` command to Lita so you can force it to die or restart.
 
 ## Installation
 
@@ -15,8 +15,12 @@ gem "lita-die"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+None.  Only admin users can call `die`.
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+Tell your bot to die:
+
+```
+lita die
+```
