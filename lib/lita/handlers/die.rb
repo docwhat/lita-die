@@ -6,7 +6,9 @@ module Lita
       route(
         /^die$/, :die,
         command: true, restrict_to: :admins,
-        help: 'dies.')
+        help: {
+          'die' => 'shuts down while sobbing, you monster.'
+        })
 
       def die(response)
         response.reply(render_template('dies'))
