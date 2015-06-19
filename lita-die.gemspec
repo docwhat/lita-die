@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'lita-die'
-  spec.version       = '1.0.0'
+  spec.version       = '1.0.1'
   spec.authors       = ['Christian Höltje']
   spec.email         = ['choltje@us.ibm.com']
   spec.description   = "Adds 'die' command"
