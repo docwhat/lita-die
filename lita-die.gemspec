@@ -2,7 +2,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'lita-die'
   spec.version       = '1.0.1'
   spec.authors       = ['Christian Höltje']
-  spec.email         = ['choltje@us.ibm.com']
+  spec.email         = ['docwhat@gerf.org']
   spec.description   = "Adds 'die' command"
   spec.summary       = "Adds a 'die' command accessable only by admins."
   spec.homepage      = 'https://github.com/docwhat/lita-die'
